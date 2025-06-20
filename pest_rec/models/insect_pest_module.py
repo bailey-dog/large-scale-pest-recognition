@@ -11,7 +11,7 @@ from torchmetrics.classification.accuracy import Accuracy
 
 
 class InsectPestLitModule(pl.LightningModule):
-     """LightningModule implementation for training and evaluating an insect pest classifier.
+    """LightningModule implementation for training and evaluating an insect pest classifier.
 
      Args:
         net (torch.nn.Module, optional): The neural network model. If not provided, a default
